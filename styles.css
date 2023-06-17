@@ -1,0 +1,404 @@
+/* general styling */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding: 10px;
+    background-image: url('main-image.PNG');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+/* general sections styling - colors */
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    padding: 15px 0 40px 0;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.colors {
+    font-family: 'Roboto Mono', monospace;
+}
+
+section.title {
+    border: 2px solid #8B9696;
+    margin: 15px 50px;
+    height: auto;
+    overflow: auto;
+}
+
+.colors > h3 {
+    clear: left;
+    margin-left: 10px;
+}
+
+.colors article {
+    width: 18%;
+    min-width: 200px;
+    margin: 10px 0 10px 10px;
+    text-align: center;
+    float: left;
+    padding: 10px 50px;
+    border-radius: 10px;
+    height: 100px;
+    min-height: 100px;
+}
+
+.colors p {
+    font-size: 14px;
+}
+
+.colorName {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+/* specific sections styling - color backgrounds */
+
+#Nebula {
+    background-color: #AED0BF;
+}
+#Nebula:hover {
+    border: 2px solid #AED0BF;
+    background-color: white;
+    color: #AED0BF;
+}
+
+#DarkSeaGreen {
+    background-color: #9AC49A;
+}
+#DarkSeaGreen:hover {
+    border: 2px solid #9AC49A;
+    background-color: white;
+    color: #9AC49A;
+}
+
+#Atlantis {
+    background-color: #93C54B;
+}
+#Atlantis:hover {
+    border: 2px solid #93C54B;
+    background-color: white;
+    color: #93C54B;
+}
+
+#Envy {
+    background-color: #86A786;
+}
+#Envy:hover {
+    border: 2px solid #86A786;
+    background-color: white;
+    color: #86A786;
+}
+
+#HippieGreen {
+    background-color: #5F9859;
+    color: white;
+}
+#HippieGreen:hover {
+    border: 2px solid #5F9859;
+    background-color: white;
+    color: #5F9859;
+}
+
+#DavysGray {
+    background-color: #758F72;
+    color: white;
+}
+#DavysGray:hover {
+    border: 2px solid #758F72;
+    background-color: white;
+    color: #758F72;
+}
+
+#PattensBlue {
+    background-color: #CDDBE3;
+}
+#PattensBlue:hover {
+    border: 2px solid #CDDBE3;
+    background-color: white;
+    color: #CDDBE3;
+}
+
+#Sinbad {
+    background-color: #A5DFD9;
+}
+#Sinbad:hover {
+    border: 2px solid #A5DFD9;
+    background-color: white;
+    color: #A5DFD9;
+}
+
+#MorningGlory {
+    background-color: #9AC4C4;
+}
+#MorningGlory:hover {
+    border: 2px solid #9AC4C4;
+    background-color: white;
+    color: #9AC4C4;
+}
+
+#PuertoRico {
+    background-color: #50C1B4;
+    color: white;
+}
+#PuertoRico:hover {
+    border: 2px solid #50C1B4;
+    background-color: white;
+    color: #50C1B4;
+}
+
+#Astral {
+    background-color: #386E93;
+    color: white;
+}
+#Astral:hover {
+    border: 2px solid #386E93;
+    background-color: white;
+    color: #386E93;
+}
+
+#Gold {
+    background-color: #FFD700;
+}
+#Gold:hover {
+    border: 2px solid #FFD700;
+    background-color: white;
+    color: #FFD700;
+}
+
+#Chardonnay {
+    background-color: #FAC472;
+}
+#Chardonnay:hover {
+    border: 2px solid #FAC472;
+    background-color: white;
+    color: #FAC472;
+}
+
+#BrightSun {
+    background-color: #EDBE35;
+}
+#BrightSun:hover {
+    border: 2px solid #EDBE35;
+    background-color: white;
+    color: #EDBE35;
+}
+
+#Peru {
+    background-color: #C5854B;
+}
+#Peru:hover {
+    border: 2px solid #C5854B;
+    background-color: white;
+    color: #C5854B;
+}
+
+#BurntOrange {
+    background-color: #FF7933;
+}
+#BurntOrange:hover {
+    border: 2px solid #FF7933;
+    background-color: white;
+    color: #FF7933;
+}
+
+#OysterPink {
+    background-color: #D0AEAE;
+}
+#OysterPink:hover {
+    border: 2px solid #D0AEAE;
+    background-color: white;
+    color: #D0AEAE;
+}
+
+#DarkSalmon {
+    background-color: #E9967A;
+}
+#DarkSalmon:hover {
+    border: 2px solid #E9967A;
+    background-color: white;
+    color: #E9967A;
+}
+
+#Coral {
+    background-color: #FF885C;
+}
+#Coral:hover {
+    border: 2px solid #FF885C;
+    background-color: white;
+    color: #FF885C;
+}
+
+#Salmon {
+    background-color: #FA8072;
+}
+#Salmon:hover {
+    border: 2px solid #FA8072;
+    background-color: white;
+    color: #FA8072;
+}
+
+#Sunglo {
+    background-color: #BB6055;
+    color: white;
+}
+#Sunglo:hover {
+    border: 2px solid #BB6055;
+    background-color: white;
+    color: #BB6055;
+}
+
+#FireBrick {
+    background-color: #B22222;
+    color: white;
+}
+#FireBrick:hover {
+    border: 2px solid #B22222;
+    background-color: white;
+    color: #B22222;
+}
+
+#SurfCrest {
+    background-color: #C6CAC5;
+}
+#SurfCrest:hover {
+    border: 2px solid #C6CAC5;
+    background-color: white;
+    color: #C6CAC5;
+}
+
+#Submarine {
+    background-color: #8B9696;
+}
+#Submarine:hover {
+    border: 2px solid #8B9696;
+    background-color: white;
+    color: #8B9696;
+}
+
+#Armadillo {
+    background-color: #4A4B49;
+    color: white;
+}
+#Armadillo:hover {
+    border: 2px solid #4A4B49;
+    background-color: white;
+    color: #4A4B49;
+}
+
+/* general sections styling - fonts */
+
+.fonts {
+    display: inline-block;
+    padding: 10px 50px 25px 10px;
+    line-height: 2.4;
+}
+
+.fonts > h3 {
+    text-decoration:underline;
+    padding-bottom: 10px;
+}
+
+.fonts p {
+    font-size: 15px;
+}
+
+p.regular {
+    font-weight: normal;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+#robotoMono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+#montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#josefinSans {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#lora {
+    font-family: 'Lora', serif;
+}
+
+#nunitoSans {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* general sections styling - text styles */
+
+#textStyles article {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#h1Style p {
+    font-weight: 800;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#h2Style p {
+    font-weight: 800;
+    font-size: 22px;
+    margin: 10px;
+}
+
+#pStyle p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* footer styling */
+
+footer {
+    background-image: url('main-image.PNG');
+    background-size: 100%;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-family: 'Roboto Mono', monospace;
+    color: #4A4B49;
+    opacity: 0.8;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+}
+
+footer p::before, footer p::after {
+    content: "  -  ";
+    width: 15px;
+    color: #4A4B49;
+}
